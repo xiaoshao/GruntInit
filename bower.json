@@ -1,0 +1,17 @@
+{
+  "name": "gruntStudy",
+  "version": "0.0.0",
+  "authors": [
+    "Shao Zengwei <zengwei19861029@163.com>"
+  ],
+  "description": "add bower",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
