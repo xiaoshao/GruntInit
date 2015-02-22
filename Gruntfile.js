@@ -5,10 +5,10 @@ module.exports=function(grunt){
 	require('load-grunt-config')(grunt, {
 		configPath: path.join(process.cwd(), 'tasks'),
 		 data: {
-            pkg: grunt.file.readJSON('package.json')
+            pkg: grunt.file.readJSON('package.json'),
+           	destDir: 'build'
         },
 		init: true
-		// data:{test: false},
 		// loadGruntTasks: {
 		// 	pattern: 'grunt-*',
 		// 	config: require('./package.json'),
