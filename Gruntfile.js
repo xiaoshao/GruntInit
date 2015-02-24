@@ -36,7 +36,7 @@ module.exports=function(grunt){
 	// });
 	
 	//loading task plugin
-	grunt.loadNpmTasks('grunt-contrib-uglify');
+	// grunt.loadNpmTasks('grunt-contrib-uglify');
 
 	//default task
 	grunt.registerTask('default', ['uglify']);
